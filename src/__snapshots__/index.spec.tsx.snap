@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Highlight String unit tests Should highlight a string when given a haystack with a few matching needles 1`] = `
+<Fragment>
+  Th
+  <span
+    key="keyOfPart0"
+    style={
+      Object {
+        "backgroundColor": "#999999",
+        "color": "black",
+      }
+    }
+  >
+    is
+  </span>
+   
+  <span
+    key="keyOfPart1"
+    style={
+      Object {
+        "backgroundColor": "#999999",
+        "color": "black",
+      }
+    }
+  >
+    is
+  </span>
+   a test of the j
+  <span
+    key="keyOfPart2"
+    style={
+      Object {
+        "backgroundColor": "#999999",
+        "color": "black",
+      }
+    }
+  >
+    is
+  </span>
+  t of a m
+  <span
+    key="keyOfPart3"
+    style={
+      Object {
+        "backgroundColor": "#999999",
+        "color": "black",
+      }
+    }
+  >
+    is
+  </span>
+  s of a highlight string text
+</Fragment>
+`;
+
+exports[`Highlight String unit tests Should highlight a string when given a haystack with a matching needle 1`] = `
+<Fragment>
+  This is a test of the 
+  <span
+    key="keyOfPart0"
+    style={
+      Object {
+        "backgroundColor": "#999999",
+        "color": "black",
+      }
+    }
+  >
+    highlight
+  </span>
+   string text
+</Fragment>
+`;
+
+exports[`Highlight String unit tests Should leave a string alone if nothign to highlight 1`] = `
+<Fragment>
+  This is a test of the highlight string text
+</Fragment>
+`;
